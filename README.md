@@ -14,7 +14,7 @@ git checkout -b (nome da branch)
 PARA ENVIAR O QUE PRECISA PARA A SUA BRANCH:
 git add .
 git commit -m "(oq fez): (mensagem)" (oq fez) = feat | fix
-git push origin (nome do repositório) 
+git push origin (nome da branch) 
 
 PARA PUXAR AS MUDANÇAS QUE FORAM ADICIONADAS:
 
