@@ -1,18 +1,38 @@
 # GCS-TRABALHO-1
 Repositório para o primeiro trabalho da disciplina de Gerenciamento de Config. de Software 2022-2
 
+COMANDOS:
+PARA CLONAR REPOSITÓRIO:
+
+copiar o link do repositorio
+
+git clone (link do repositorio)
+
+PARA MUDAR DE BRANCH:
+git checkout -b (nome da branch)
+
+PARA ENVIAR O QUE PRECISA PARA A SUA BRANCH:
+git add .
+git commit -m "(oq fez): (mensagem)" (oq fez) = feat | fix
+git push origin (nome do repositório) 
+
+PARA PUXAR AS MUDANÇAS QUE FORAM ADICIONADAS:
+
+git pull origin main
+
+
 
 NOMES: 
-LUCCA TISSER PARADEDA 
-JOÃO VITOR SCHWINGEL
-LUCCA MAZZOCCATO
-CONRADO CRESTANI
-LEONARDO SABINO
-LEONARDO CARVALHOH
-NICHOLAS SPOLTI
-GUSTAVO PASQUALI
-JOÃO VITOR MORANDI
-RAFAEL FERNANDO
+LUCCA TISSER PARADEDA -- correção de bugs e ajustes
+JOÃO VITOR SCHWINGEL -- 8
+LUCCA MAZZOCCATO -- 5
+CONRADO CRESTANI -- 3
+LEONARDO SABINO -- 1
+LEONARDO CARVALHOH -- 7
+NICHOLAS SPOLTI -- 6
+GUSTAVO PASQUALI -- 4
+JOÃO VITOR MORANDI -- 2
+RAFAEL FERNANDO -- 9
 
 1) O sistema deverá permitir escolher o usuário atual a qualquer momento. Cada usuário tem um
 identificador, um nome e o seu tipo: médico, paciente ou administrador.
@@ -31,8 +51,8 @@ que foi realizado.
   a) O sistema não deve permitir essa operação se a data informada for anterior à da solicitação ou
   for posterior a 30 dias da solicitação.
 5) O sistema deverá permitir a um paciente listar as suas autorizações de exame, ordenadas pela data.
-6) O sistema deverá permitir a um administrador incluir um novo usuário (médico, paciente ou outro
-administrador).
+NICO -- { 6) O sistema deverá permitir a um administrador incluir um novo usuário (médico, paciente ou outro
+administrador). }
 7) O sistema deverá permitir ao administrador buscar um médico ou paciente por parte de seu nome e
 listar as autorizações daquele usuário.
 8) O sistema deverá permitir ao administrador ver estatísticas gerais contendo:
