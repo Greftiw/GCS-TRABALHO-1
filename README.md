@@ -41,3 +41,5 @@ listar as autorizações daquele usuário.
   c) Número de autorizações emitidas
   d) Percentual de autorizações com exames já realizados
 9) Duas funcionalidades a mais, à escolha do grupo.
+
+testeAAAA
