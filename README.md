@@ -51,8 +51,8 @@ que foi realizado.
   a) O sistema não deve permitir essa operação se a data informada for anterior à da solicitação ou
   for posterior a 30 dias da solicitação.
 5) O sistema deverá permitir a um paciente listar as suas autorizações de exame, ordenadas pela data.
-NICO -- { 6) O sistema deverá permitir a um administrador incluir um novo usuário (médico, paciente ou outro
-administrador). }
+6) O sistema deverá permitir a um administrador incluir um novo usuário (médico, paciente ou outro
+administrador).
 7) O sistema deverá permitir ao administrador buscar um médico ou paciente por parte de seu nome e
 listar as autorizações daquele usuário.
 8) O sistema deverá permitir ao administrador ver estatísticas gerais contendo:
@@ -62,4 +62,3 @@ listar as autorizações daquele usuário.
   d) Percentual de autorizações com exames já realizados
 9) Duas funcionalidades a mais, à escolha do grupo.
 
-testeAAAA
