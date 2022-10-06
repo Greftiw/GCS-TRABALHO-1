@@ -11,7 +11,7 @@ public class Operador {
         usuario.add(user);
     }
 
-    public Usuario escolheUsuario(String id){
+    public Usuario escolheUser(String id){
         for (Usuario usuarios: usuario ){
             if (usuarios.getId().equals(id)){
                 return usuarios;
@@ -20,8 +20,11 @@ public class Operador {
         return null;
     }
 
-    public void printaUser(){
-        for (int i=0;i<usuario.size();i++);
-        System.out.println();
+    public void listaUser() {
+        for (Usuario usuarios : usuario) {
+            System.out.println(usuarios.getId()+","+usuarios.getNome()+ ","+usuarios.getTipo());
+        }
     }
+
+
 }

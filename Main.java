@@ -4,7 +4,7 @@ public class Main {
 
         Sistema sistema = new Sistema();
         sistema.cadastra();
-        /*sistema.menuUser();*/
+        sistema.menuUser();
     }
 
 }
